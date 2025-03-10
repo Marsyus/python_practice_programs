@@ -5,4 +5,8 @@ for i in range(1, 11):
     number = int(input(f"Enter for number {i}: "))
     numbers.append(number)
 #Count the even numbers
+count = 0
+for even in numbers:
+    if even % 2 == 0:
+        count += 1
 #Print the count
