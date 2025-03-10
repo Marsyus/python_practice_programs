@@ -3,4 +3,6 @@
 odd = 0
 while odd <= 100:
     odd += 1
-#Print the odd numbers
+    #Print the odd numbers
+    if odd % 2:
+        print(odd)
