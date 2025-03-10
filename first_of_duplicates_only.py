@@ -4,5 +4,5 @@ numbers = []
 for i in range(1, 11):
     number = int(input(f"Enter for number {i}: "))
     numbers.append(number)
-#Determine which number has a duplicate
 #Print all numbers without duplicating
+print(set(numbers))
