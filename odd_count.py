@@ -10,3 +10,4 @@ for odd in numbers:
     if odd % 2:
         count += 1
 #Print the count
+print(f"There are {count} odd numbers")
