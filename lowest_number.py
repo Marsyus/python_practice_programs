@@ -8,5 +8,7 @@ while True:
         numbers.append(number)
         count += 1
     except ValueError:
+        #Arrange the numbers to find and print the lowest
+        arranged = sorted(numbers)
+        print(arranged[0])
         break
-#Arrange the numbers to find and print the lowest
