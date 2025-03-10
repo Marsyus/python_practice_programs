@@ -16,4 +16,4 @@ unique = []
 for i in numbers:
     if i not in dupes:
         unique.append(i)
-print(unique
+print(unique)
