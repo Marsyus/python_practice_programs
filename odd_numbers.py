@@ -2,7 +2,7 @@
 #Iterate from 0 to 100 using while loop
 odd = 0
 while odd <= 100:
-    odd += 1
     #Print the odd numbers
     if odd % 2:
         print(odd)
+    count += 1
