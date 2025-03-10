@@ -3,3 +3,4 @@
 num_01 = int(input("Enter first number: "))
 num_02 = int(input("Enter second number: "))
 #Print the quotient of the numbers
+print("The quotient is", num_01 / num_02)
