@@ -6,7 +6,11 @@ while True:
     try:
         number = int(input(f"Enter for number {count}: "))
         count += 1
+        #Print "Unique" if the number is not a duplicate. Otherwise, print "Duplicate"
+        if number not in numbers:
+            print("Unique")
+        else:
+            print("Duplicate")
         numbers.append(number)
     except ValueError:
         break
-#Print "Unique" if the number is not a duplicate. Otherwise, print "Duplicate"
