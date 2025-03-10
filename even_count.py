@@ -10,3 +10,4 @@ for even in numbers:
     if even % 2 == 0:
         count += 1
 #Print the count
+print(f"There are {count} even numbers")
