@@ -3,3 +3,9 @@
 num_01 = int(input("Enter first number: "))
 num_02 = int(input("Enter second number: "))
 #Print numbers between the two
+while num_01 < num_02:
+    num_01 += 1
+    print(num_01)
+while num_01 > num_02:
+    num_01 -= 1
+    print(num_01)
