@@ -12,3 +12,8 @@ for each in numbers:
         dupes.add(each)
     seen.add(each)
 #Print numbers without duplicates
+unique = []
+for i in numbers:
+    if i not in dupes:
+        unique.append(i)
+print(unique
