@@ -3,3 +3,5 @@
 num_01 = int(input("Enter first number: "))
 num_02 = int(input("Enter second number: "))
 #Print "Equal" if the numbers are equal
+if num_01 == num_02:
+    print("Equal")
