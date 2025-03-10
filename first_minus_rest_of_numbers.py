@@ -11,3 +11,4 @@ for i in range(1, 11):
     else:
         first_num -= number
 #Print the result
+print(first_num)
