@@ -17,8 +17,8 @@ for each in numbers:
     else:
 	dupes[each] = 1
 most_dupes = []
-for dupe in dupes:
+for num, dupe in dupes.items():
     if dupe == max(dupes.values()):
-	most_dupes.append(dupe)
+	most_dupes.append(num)
 #Print the number
 print(most_dupes)
