@@ -8,6 +8,7 @@ while True:
 	numbers.append(number)
 	count += 1
     except ValueError:
+        #Compute for the average of all numbers
+        average = sum(numbers) / len(numbers)
 	break
-#Compute for the average of all numbers
 #Print the result
