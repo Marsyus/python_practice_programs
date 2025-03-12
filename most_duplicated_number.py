@@ -4,7 +4,7 @@ numbers = []
 count = 1
 while True:
     try:
-	number = int(input(f"Enter for number {i}: "))
+	number = int(input(f"Enter for number {count}: "))
         numbers.append(number)
         count += 1
     except ValueError:
