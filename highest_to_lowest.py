@@ -8,6 +8,7 @@ while True:
 	numbers.append(number)
 	count += 1
     except ValueError:
+        #Arrange the numbers and print from highest to lowest
+        arranged = sorted(numbers, reverse=True)
+        print(arranged)
 	break
-#Arrange the numbers
-#Print from highest to lowest
