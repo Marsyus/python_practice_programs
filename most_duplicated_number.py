@@ -21,4 +21,4 @@ for num, dupe in dupes.items():
     if dupe == max(dupes.values()):
 	most_dupes.append(num)
 #Print the number
-print(most_dupes)
+print("The most duplicated number is", most_dupes)
