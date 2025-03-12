@@ -10,5 +10,6 @@ while True:
     except ValueError:
         #Compute for the average of all numbers
         average = sum(numbers) / len(numbers)
+        #Print the result
+        print("The average is", average)
 	break
-#Print the result
