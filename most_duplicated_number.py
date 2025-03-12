@@ -10,4 +10,10 @@ while True:
     except ValueError:
 	break
 #Determine which number has the most duplicates
+dupes = set()
+seen = set()
+for each in numbers:
+    if each in seen:
+        dupes.add(each)
+    seen.add(each)
 #Print the number
