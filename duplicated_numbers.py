@@ -12,4 +12,4 @@ for each in numbers:
 	dupes.add(each)
     seen.add(each)
 #Print all numbers with duplicates
-print(dupes)
+print(list(dupes))
