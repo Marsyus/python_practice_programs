@@ -14,6 +14,8 @@ dupes = dict()
 for each in numbers:
     if each in dupes:
         dupes[each] += 1
+    else:
+	dupes[each] = 1
 most_dupes = []
 for dupe in dupes:
     if dupe == max(dupes.values()):
